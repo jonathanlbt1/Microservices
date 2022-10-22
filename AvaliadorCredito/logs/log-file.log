@@ -1,0 +1,54 @@
+2022-10-16 17:02:16.563  INFO 8580 --- [restartedMain] c.e.a.AvaliadorCreditoApplication        : Starting AvaliadorCreditoApplication using Java 11.0.13 on DESKTOP-P3JN3H2 with PID 8580 (B:\Microservicos\AvaliadorCredito\target\classes started by jonat in B:\Microservicos\AvaliadorCredito)
+2022-10-16 17:02:16.565  INFO 8580 --- [restartedMain] c.e.a.AvaliadorCreditoApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-10-16 17:02:16.601  INFO 8580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-16 17:02:16.601  INFO 8580 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-16 17:02:17.473  INFO 8580 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=24c3d072-d919-3ad1-a6da-c40737679c26
+2022-10-16 17:02:17.877  INFO 8580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-10-16 17:02:17.883  INFO 8580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-16 17:02:17.883  INFO 8580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-10-16 17:02:18.142  INFO 8580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-16 17:02:18.142  INFO 8580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1538 ms
+2022-10-16 17:02:18.372  WARN 8580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-10-16 17:02:18.410  INFO 8580 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2022-10-16 17:02:18.461  INFO 8580 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-10-16 17:02:20.665  INFO 8580 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-10-16 17:02:22.315  INFO 8580 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-10-16 17:02:22.320  INFO 8580 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-10-16 17:02:22.347  WARN 8580 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-10-16 17:02:22.353  INFO 8580 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-10-16 17:02:22.444  INFO 8580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 62291 (http) with context path ''
+2022-10-16 17:02:22.445  INFO 8580 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 62291
+2022-10-16 17:02:22.448  INFO 8580 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-10-16 17:02:22.468  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-10-16 17:02:22.472  INFO 8580 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-16 17:02:22.484  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-10-16 17:02:22.485  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-10-16 17:02:22.485  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-10-16 17:02:22.485  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-10-16 17:02:22.485  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-10-16 17:02:22.485  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-10-16 17:02:22.485  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-10-16 17:02:22.721  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-10-16 17:02:22.723  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-10-16 17:02:22.725  INFO 8580 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-10-16 17:02:22.728  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1665950542727 with initial instances count: 3
+2022-10-16 17:02:22.729  INFO 8580 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSAVALIADORCREDITO with eureka with status UP
+2022-10-16 17:02:22.729  INFO 8580 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1665950542729, current=UP, previous=STARTING]
+2022-10-16 17:02:22.731  INFO 8580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:9273c482b68e9947782b1ad4dca885ee: registering service...
+2022-10-16 17:02:22.839  INFO 8580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:9273c482b68e9947782b1ad4dca885ee - registration status: 204
+2022-10-16 17:02:24.204  INFO 8580 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-10-16 17:02:24.217  INFO 8580 --- [restartedMain] c.e.a.AvaliadorCreditoApplication        : Started AvaliadorCreditoApplication in 9.712 seconds (JVM running for 11.385)
+2022-10-16 17:02:24.902  INFO 8580 --- [RMI TCP Connection(1)-192.168.1.190] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2022-10-16 17:02:24.908  INFO 8580 --- [RMI TCP Connection(2)-192.168.1.190] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-16 17:02:24.909  INFO 8580 --- [RMI TCP Connection(2)-192.168.1.190] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-16 17:02:24.910  INFO 8580 --- [RMI TCP Connection(2)-192.168.1.190] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-16 17:02:24.929  INFO 8580 --- [RMI TCP Connection(1)-192.168.1.190] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#751a2092:0/SimpleConnection@1da6e504 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62297]
+2022-10-16 17:07:22.489  INFO 8580 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-10-16 17:09:39.370  INFO 8580 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2022-10-16 17:09:39.371  INFO 8580 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1665950979371, current=DOWN, previous=UP]
+2022-10-16 17:09:39.371  INFO 8580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:9273c482b68e9947782b1ad4dca885ee: registering service...
+2022-10-16 17:09:39.378  INFO 8580 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:9273c482b68e9947782b1ad4dca885ee - registration status: 204
+2022-10-16 17:09:40.049  INFO 8580 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-10-16 17:09:43.059  INFO 8580 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-10-16 17:09:43.075  INFO 8580 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:9273c482b68e9947782b1ad4dca885ee - deregister  status: 200
+2022-10-16 17:09:43.079  INFO 8580 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
